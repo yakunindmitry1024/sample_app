@@ -6,6 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 
 # Gems used only for assets and not required
@@ -33,6 +34,7 @@ group :test do
   gem 'autotest', '4.4.6'
   gem 'autotest-rails-pure', '4.1.2'
   gem 'ZenTest'
+  gem 'factory_girl_rails', '1.0'
 #  gem 'redgreen'
 end
 
